@@ -25,6 +25,7 @@ const DogSchema = new Schema({
         required: true,
         trim: true
     }
-});
+}, { collection: 'dog_database'});
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 mongoose.model('dogs', DogSchema);
