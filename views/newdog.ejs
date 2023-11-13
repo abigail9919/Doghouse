@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+
+    <form method="post" action="/" name="quote_form">
+        Name: <input type="text" name="name" id="name" /><br />
+        Breed: <input type="text" name="breed" id="breed" /><br />
+        Age: <input type="number" id="age" name="age"><br />
+        Gender: <br />
+        <input type="radio" id="male" name="gender" value="male">Male<br />
+        <input type="radio" id="female" name="gender" value="female">Female<br /><br />
+        Favorite Treat: <input type="text" name="treat" id="treat" /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+
+  </body>
+</html>
